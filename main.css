@@ -1,0 +1,21 @@
+.pizza {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+
+.item {
+    width: calc((100% - 40px) / 4);
+    margin-left: 10px;
+    text-align: center;
+}
+
+.item img {
+    width: 350px;
+    height: 300px;
+}
+
+.item h2 {
+    font-size: smaller;
+}
